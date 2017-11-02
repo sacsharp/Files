@@ -1,4 +1,5 @@
 
+console.log("loaded");
 (function(b,e){
 	var d="2.3";
 	var a=b.CombineConfig("TeX.errors");
@@ -35,4 +36,4 @@
 //			return MathJax.ElementJax.mml.merror(i).With({isError:true,multiLine:k})}
 //		})
 	});
-	b.Startup.signal.Post("TeX errors Ready")})(MathJax.Hub,MathJax.HTML);MathJax.Ajax.loadComplete("[MathJax]/extensions/TeX/errors.js");
+	b.Startup.signal.Post("TeX errors Ready")})(MathJax.Hub,MathJax.HTML);MathJax.Ajax.loadComplete("https://github.com/sacsharp/Files/blob/master/errors.js");
